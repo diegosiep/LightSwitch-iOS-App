@@ -13,9 +13,6 @@
 		C4DC2C9728623ECB0036D450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DC2C9528623ECB0036D450 /* Main.storyboard */; };
 		C4DC2C9928623ECC0036D450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DC2C9828623ECC0036D450 /* Assets.xcassets */; };
 		C4DC2C9C28623ECC0036D450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DC2C9A28623ECC0036D450 /* LaunchScreen.storyboard */; };
-		C4DC2CA728623ECC0036D450 /* LightSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC2CA628623ECC0036D450 /* LightSwitchTests.swift */; };
-		C4DC2CB128623ECC0036D450 /* LightSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC2CB028623ECC0036D450 /* LightSwitchUITests.swift */; };
-		C4DC2CB328623ECC0036D450 /* LightSwitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DC2CB228623ECC0036D450 /* LightSwitchUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		C4DC2C9B28623ECC0036D450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4DC2C9D28623ECC0036D450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4DC2CA228623ECC0036D450 /* LightSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4DC2CA628623ECC0036D450 /* LightSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchTests.swift; sourceTree = "<group>"; };
 		C4DC2CAC28623ECC0036D450 /* LightSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4DC2CB028623ECC0036D450 /* LightSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchUITests.swift; sourceTree = "<group>"; };
-		C4DC2CB228623ECC0036D450 /* LightSwitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSwitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				C4DC2C8E28623ECB0036D450 /* LightSwitch */,
-				C4DC2CA528623ECC0036D450 /* LightSwitchTests */,
-				C4DC2CAF28623ECC0036D450 /* LightSwitchUITests */,
 				C4DC2C8D28623ECB0036D450 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				C4DC2C9D28623ECC0036D450 /* Info.plist */,
 			);
 			path = LightSwitch;
-			sourceTree = "<group>";
-		};
-		C4DC2CA528623ECC0036D450 /* LightSwitchTests */ = {
-			isa = PBXGroup;
-			children = (
-				C4DC2CA628623ECC0036D450 /* LightSwitchTests.swift */,
-			);
-			path = LightSwitchTests;
-			sourceTree = "<group>";
-		};
-		C4DC2CAF28623ECC0036D450 /* LightSwitchUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C4DC2CB028623ECC0036D450 /* LightSwitchUITests.swift */,
-				C4DC2CB228623ECC0036D450 /* LightSwitchUITestsLaunchTests.swift */,
-			);
-			path = LightSwitchUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4DC2CA728623ECC0036D450 /* LightSwitchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4DC2CB128623ECC0036D450 /* LightSwitchUITests.swift in Sources */,
-				C4DC2CB328623ECC0036D450 /* LightSwitchUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
